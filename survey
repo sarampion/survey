@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <form id="survey-form">
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+    <form id="survey-form" method="post">
+    <fieldset>
+        <label id="name-label" for="name">Name: 
+          <input placeholder="Write your full name"id="name" name="name" type="text" required /></label>
+        <label id="email-label" for="email">Email:
+          <input placeholder="Type in your email"id="email" name="email" type="email" required /></label>
+          <label id="number-label" for="number">Number: <input placeholder="1" id="number" type="number" name="number" min="13" max="120" /></label>
+           <label id="dropdown0" for="dropdown"> Mandatory select section
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Grower</option>
+            <option value="2">Shower</option>
+            <option value="3">Not interested</option>
+            <option value="4">Other</option>
+          </select>
+</fieldset>
+
+<fieldset>    
+<label> <legend>Choose something:</legend></label>
+        <label for="something"><input value="1" id="something" type="radio" name="something" class="inline" checked />Something</label>
+        <label for="someone"><input value="2" id="someone" type="radio" name="something" class="inline" />Someone</label>
+</fieldset>
+
+
+<fieldset>  <label>    
+<legend>How many?</legend></label>
+<label>
+<input type="checkbox" value="1"> A few
+</label>
+<label>
+<input type="checkbox" value="2"> A couple </label>
+<label>
+<input type="checkbox" value="3"> None</label>
+</fieldset>  
+  <label>
+    <fieldset>
+<legend> Airplane food am I right?</legend></label>
+<textarea id="bio" name="bio" rows="4" cols="30" placeholder="Tell me about it..."></textarea>
+</fieldset> 
+
+<survey-form>
+ <input  id="submit" type="submit" value="Submit" />
+</form>
+
+
