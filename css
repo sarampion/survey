@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  color: #23272b;
+  font-family: system-ui;
+  font-size: 20px;
+  background-image: url(https://th.bing.com/th/id/R.ecc150b91088f9a7293b0c0060a5f61a?rik=no8nY1J1zpCoYQ&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2014%2f07%2f24%2fpattern-background_113041807_88.jpg&ehk=3SmCv4wyddY1XFNEitC3dBe%2b6nEmPKRw0h805kf2X8Y%3d&risl=&pid=ImgRaw&r=0)}
+
+  h1,p {
+  margin: 1em auto;
+  text-align: center;}
+  form{ 
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: auto;
+  padding-bottom: 2em;}
+
+  fieldset {
+  border: none;
+  margin: auto;}
+  
+
+label{
+  display: block;
+  margin: 10}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select{
+  margin: 20px 0 0 0;
+  width: 100%;
+  min-height: 2em;}
+
+ form{
+   background: rgba(58, 119, 123, 0.7)
+ } 
+
+ input[type="submit"] {
+  display: block;
+  width: 20%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color:rgb(89, 167, 172);
+  min-width: 250px;
